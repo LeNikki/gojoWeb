@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/gojoWeb/static/css/main.f13a6ee8.css",
+    "main.js": "/gojoWeb/static/js/main.10ce8882.js",
+    "static/js/453.76703d04.chunk.js": "/gojoWeb/static/js/453.76703d04.chunk.js",
+    "static/media/dogHero.png": "/gojoWeb/static/media/dogHero.17b01a9888d505c75c07.png",
+    "static/media/logo.png": "/gojoWeb/static/media/logo.a7d615f02e65c314f161.png",
+    "index.html": "/gojoWeb/index.html",
+    "main.f13a6ee8.css.map": "/gojoWeb/static/css/main.f13a6ee8.css.map",
+    "main.10ce8882.js.map": "/gojoWeb/static/js/main.10ce8882.js.map",
+    "453.76703d04.chunk.js.map": "/gojoWeb/static/js/453.76703d04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f13a6ee8.css",
+    "static/js/main.10ce8882.js"
+  ]
+}
