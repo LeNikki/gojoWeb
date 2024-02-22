@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <header>
@@ -25,7 +25,9 @@ export default function Navbar() {
             ></input>
             <i className="fa-solid fa-magnifying-glass ml-4"></i>
           </section>
-          <i className="fa-solid fa-user ml-5"></i>
+          <Link to="/profile">
+            <i className="fa-solid fa-user ml-5"></i>
+          </Link>
         </section>
       </nav>
     </header>

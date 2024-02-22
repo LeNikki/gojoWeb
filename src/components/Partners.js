@@ -5,9 +5,9 @@ import rimberio from "../assets/rimberio.png";
 import twintails from "../assets/twintails.png";
 function Partners() {
   return (
-    <div>
+    <div className="bg-slate-100 pt-10">
       <h1 className="text-3xl font-bold text-center">Our Trusted Partners</h1>
-      <div className="flex flex-row p-5 justify-around w-full">
+      <div className="flex flex-row p-5 justify-around w-full ">
         <img src={borcelle} alt="borcelle" className="w-32" />
         <img src={catmoon} alt="catmoon" className="w-32" />
         <img src={rimberio} alt="rimberio" className="w-32" />

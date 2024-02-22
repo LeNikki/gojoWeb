@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/navbar";
 import Partners from "../components/Partners";
 import Testimonials from "../components/Testimonials";
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="bg-hero">
@@ -9,7 +10,7 @@ function Home() {
       <div className="w-full h-auto flex flex-row justify-between">
         <section className="w-1/2 p-12">
           <h1 className="text-8xl font-bold">Lorem Ipsum Dolor Silet.</h1>
-          <p className="mt-6">
+          <p className="mt-6 mb-9">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -18,15 +19,18 @@ function Home() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-          <button className="mt-9 w-44 p-3 bg-yellow-800 text-slate-100 hover:bg-slate-800">
+          <Link
+            to="/services"
+            className="mt-9 w-44 p-3 bg-yellow-800 text-slate-100 hover:bg-slate-800"
+          >
             Services
             <i className="fa-solid fa-arrow-right ml-2"></i>
-          </button>
+          </Link>
         </section>
 
         <section className="w-1/2"></section>
       </div>
-      <div className="w-full h-72 "></div>
+      <div className="w-full h-56 "></div>
       <Partners />
       <div className="w-full h-32 "></div>
       <Testimonials />
